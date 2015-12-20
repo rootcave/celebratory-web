@@ -36,11 +36,11 @@ body a:hover{
 }
 /*--banner--*/
 .banner {
-    background: url(../img/images/header.jpg)no-repeat 0px 0px;
-    background-size: 100%;
-    height:100%;
-    width:100%;
-    position:relative;
+    background: url(../img/images/header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /*--//banner--*/
 @media (min-width: 768px){
@@ -486,11 +486,11 @@ a.more.more-right:hover {
 }
 .welcome{
 	text-align:center;
-        background: url(../img/images/Celebratory-homeNew_02.jpg)no-repeat 0px 0px;
-    background-size: 100%;
-   height: 100%;
-    width:100%;
-	position:relative;
+        background: url(../img/images/Celebratory-homeNew_02.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
 }
 h3.title {
@@ -670,13 +670,12 @@ h5.caption {
 }
 /*--//view--*/
 .slid {
-    background: url(../img/images/Celebratory-homeNew_04.jpg)no-repeat 0px 0px ;
-    background-size: 100%;
-    height: 100%;
-    width:100%;
-    padding: 8em 0;
-	text-align:center;
-    background-position: center center;
+    background: url(../img/images/Celebratory-homeNew_04.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
 
 }
 .slid h4 {
@@ -803,17 +802,18 @@ h5.caption {
 /*--special--*/
 /*---start-footer-----*/
 .footer {
-    background: url("../img/home/footer.jpg")no-repeat 0px 0px;
+    background: url("../img/home/footer.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height:100%;
-    width:100%;
-    position:relative;
 }
 .footer-grid{
 	float:left;
 	width:33%;
 }
 .footer-grid h3.title {
+    margin-top: 0.8em;
     font-size: 2em;
     text-align: left;
     color: #000000;
@@ -1482,17 +1482,12 @@ h2.typoh2{
 
 /*------qe------*/
 .qe{
-    background: url(../img/images/Celebratory-homeNew_06.jpg)no-repeat 0px 0px fixed;
-    background-size: cover;
-    color: #FFFFFF;
-    height: 100%;
-    width:100%;
-    padding: 8em 0;
-    text-align:center;
-    background-position: center center;
+    background: url(../img/images/Celebratory-homeNew_06.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    color: white;
 }
 .qe h4 {
     font-size: 4em;
@@ -1785,10 +1780,10 @@ h5.caption {
 
 
     .qe {
-        padding: 4em 0;
+        padding: 2em 0;
     }
     .qe h4 {
-        font-size: 3.6em;
+        font-size: 1.6em;
     }
     .qe p {
         width: 100%;
