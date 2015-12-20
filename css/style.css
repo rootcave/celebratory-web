@@ -4,15 +4,14 @@ Author URL: http://rootcave.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-@import url(http://weloveiconfonts.com/api/?family=entypo);
 
 body{
 	margin:0;
-	font-family: 'Roboto-Regular';
+	font-family: 'Century Gothic';
 }
 @font-face {
       font-family: 'Century Gothic';
-      src: url(../img/font/GOTHIC.TTF) format('truetype');
+      src: url(../fonts/GOTHIC.TTF) format('truetype');
 }
 body a{
 	transition: 0.5s all ease;
@@ -38,17 +37,17 @@ body a:hover{
 /*--banner--*/
 .banner {
     background: url(../img/images/header.jpg)no-repeat 0px 0px;
-    background-size: cover;
+    background-size: 100%;
     height:100%;
     width:100%;
-    min-height: 700px;
     position:relative;
 }
 /*--//banner--*/
 @media (min-width: 768px){
 .header-img{
-    max-width:60% !important;
+    max-width:100% !important;
 }
+
 }
 @media (max-width: 480px){
     .header-img{
@@ -57,7 +56,7 @@ body a:hover{
 }
 @media (min-width: 481px) and (max-width: 767px){
     .header-img{
-        max-width:20% !important;
+        max-width:100% !important;
     }
 }
 /*--top-nav--*/
@@ -250,9 +249,9 @@ a.more.more-right:hover {
 #sticky-social a[class*="twitter"]:hover,
 #sticky-social a[class*="twitter"] span { background: #00aced; }
 
-#sticky-social a[class*="gplus"],
-#sticky-social a[class*="gplus"]:hover,
-#sticky-social a[class*="gplus"] span { background: #dd4b39; }  
+#sticky-social a[class*="play"],
+#sticky-social a[class*="play"]:hover,
+#sticky-social a[class*="play"] span { background: #dd4b39; }
 
 #sticky-social a[class*="linkedin"],
 #sticky-social a[class*="linkedin"]:hover,
@@ -488,10 +487,9 @@ a.more.more-right:hover {
 .welcome{
 	text-align:center;
         background: url(../img/images/Celebratory-homeNew_02.jpg)no-repeat 0px 0px;
-    background-size: cover;
-    height: 100%;
+    background-size: 100%;
+   height: 100%;
     width:100%;
-    min-height: 700px;
 	position:relative;
     
 }
@@ -672,16 +670,14 @@ h5.caption {
 }
 /*--//view--*/
 .slid {
-    background: url(../img/images/Celebratory-homeNew_04.jpg)no-repeat 0px 0px fixed;
-    background-size: cover;
+    background: url(../img/images/Celebratory-homeNew_04.jpg)no-repeat 0px 0px ;
+    background-size: 100%;
     height: 100%;
     width:100%;
     padding: 8em 0;
 	text-align:center;
     background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
 }
 .slid h4 {
     font-size: 6em;
@@ -807,19 +803,64 @@ h5.caption {
 /*--special--*/
 /*---start-footer-----*/
 .footer {
-    background: #3a3a3a;
-    padding: 5em 0;
+    background: url("../img/home/footer.jpg")no-repeat 0px 0px;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    position:relative;
 }
 .footer-grid{
 	float:left;
-	width:23%;
-	margin-right:2%;
+	width:33%;
 }
 .footer-grid h3.title {
-    font-size: 3.5em;
+    font-size: 2em;
     text-align: left;
-    color: #E88010;
+    color: #000000;
     margin-bottom: 0.8em;
+}
+
+.footer-grid ul {
+    overflow: auto;
+}
+
+.footer-grid ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.footer-grid ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.footer-grid ul li a i .fa-facebook {
+    background:#3b5998
+}
+.footer-grid ul li a i .fa-linkedin {
+    background:#007bb6
+}
+.footer-grid ul li a i .fa-twitter {
+    background:#00aced
+}
+.footer-grid ul li a i .fa-youtube {
+    background:#dd4b39
+}
+.footer-grid ul li a i .fa-instagram{
+     background:#8a6d3b
+ }
+.footer-grid ul li a i .fa-whatsapp{
+     background: #4cae4c;
+ }
+.footer-grid ul li a i:hover {
+    opacity: .7;
 }
 .footer-grid p {
     font-size: 1em;
@@ -1374,7 +1415,7 @@ h2.typoh2{
     width: 64%;
 }
 .banner {
-    min-height: 650px;
+    min-height: 769px;
 }
 .bnr-text h2 {
     font-size: 5em;
@@ -1422,7 +1463,7 @@ h2.typoh2{
     font-size: 5.2em;
 }
 .banner {
-    min-height: 590px;
+    min-height: 769px;
 }
 .bnr-text {
     margin-top: 7em;
@@ -1454,12 +1495,14 @@ h2.typoh2{
     -o-background-size: cover;
 }
 .qe h4 {
-    font-size: 5em;
+    font-size: 4em;
+    padding: 1em;
 }
 .qe p {
     width: 75%;
-    font-size: 0.85em;
+    font-size: 1.25em;
     margin-bottom:0;
+    padding: 2em;
 }
 
 
@@ -1666,7 +1709,7 @@ ul.nav.navbar-nav.navbar-left {
 }
 @media(max-width:640px){
 .banner {
-    min-height: 540px;
+    min-height: 769px;
 }
 .social-icons {
     top: 17%;
@@ -1713,10 +1756,10 @@ h5.caption {
     padding: 2em 0;
 }
     .qe {
-        padding: 4em 0;
+        padding: 3em 0;
     }
     .qe h4 {
-        font-size: 3.6em;
+        font-size: 2.6em;
     }
     .qe p {
         width: 100%;
@@ -1897,7 +1940,7 @@ h3.title {
     margin: 1em auto 1.5em;
 }
 .banner {
-    min-height: 445px;
+    min-height: 769px;
 }
 .bnr-text {
     margin-top: -3em;
