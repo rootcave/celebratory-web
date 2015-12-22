@@ -831,7 +831,7 @@ h5.caption {
 }
 
 .footer-grid ul li a i {
-    background: #205D7A;
+    background: #d58512;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -842,6 +842,7 @@ h5.caption {
     padding-top: 15%;
     transition: all 0.2s ease-in-out;
 }
+
 .footer-grid ul li a i .fa-facebook {
     background:#3b5998
 }
