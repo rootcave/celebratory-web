@@ -4,7 +4,9 @@ Author URL: http://rootcave.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
+*{
+    font-family: 'Century Gothic';
+}
 body{
 	margin:0;
 	font-family: 'Century Gothic';
@@ -70,7 +72,6 @@ body a:hover{
     font-size: 6em;
     margin: 0 !important;
     display: block;
-	font-family: 'Tangerine', cursive;
     height: 0;
     line-height: 0;
     padding: .6em 0;
@@ -175,7 +176,6 @@ nav.navbar.navbar-default {
 }
 .bnr-text  h2 {
     font-size: 6em;
-	font-family: 'Tangerine', cursive;
     color: #fff;
 }
 .bnr-text p {
@@ -498,7 +498,6 @@ h3.title {
     font-size: 5em;
     color: #E88010;
     text-align: center;
-	font-family: 'Tangerine', cursive;
 }
 h5.caption {
     color: #777;
@@ -557,7 +556,6 @@ h5.caption {
     text-align: center;
     position: relative;
     font-size: 4em;
-	font-family: 'Tangerine', cursive;
 }
 .view p {
    font-size: 1em;
@@ -682,7 +680,6 @@ h5.caption {
 .slid h4 {
     font-size: 6em;
     color: #fff;
-	font-family: 'Tangerine', cursive;
 }
 .slid p {
     font-size: 1em;
@@ -952,7 +949,6 @@ h5.caption {
 .about-slid h3 {
     color: #fff;
     font-size: 8em;
-	font-family: 'Tangerine', cursive;
 }
 .about-slid p {
     color: #fff;
