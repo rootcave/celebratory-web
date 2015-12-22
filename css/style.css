@@ -45,18 +45,19 @@ body a:hover{
 /*--//banner--*/
 @media (min-width: 768px){
 .header-img{
-    max-width:100% !important;
+    max-width:68% !important;
 }
 
 }
 @media (max-width: 480px){
     .header-img{
-        max-width:100% !important;
+        max-width:30% !important;
     }
 }
 @media (min-width: 481px) and (max-width: 767px){
     .header-img{
-        max-width:100% !important;
+        max-width:50% !important;
+
     }
 }
 /*--top-nav--*/
@@ -802,11 +803,11 @@ h5.caption {
 /*--special--*/
 /*---start-footer-----*/
 .footer {
-    background: url("../img/home/footer.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../img/home/footer.jpg") no-repeat center center ;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
 .footer-grid{
 	float:left;
