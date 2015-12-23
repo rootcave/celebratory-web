@@ -23,6 +23,7 @@
     <!-- start-smoth-scrolling-->
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
@@ -32,9 +33,9 @@
         });
     </script>
     <!--//end-smoth-scrolling-->
-    <link rel="stylesheet" href="css\style.css"></head><body>
+    </head><body>
 <!--banner-->
-<div class="banner">
+<div >
     <!--header-->
     <div class="top-nav">
         <nav class="navbar navbar-default">
@@ -54,12 +55,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
-                        <li class="hvr-bounce-to-bottom active">
+                        <li class="hvr-bounce-to-bottom ">
                             <a href="index.html">Home</a>
                         </li>
                         <li class="hvr-bounce-to-bottom">
                             <a href="about.html">About</a>
-                        </li><li class="hvr-bounce-to-bottom">
+                        </li><li class="hvr-bounce-to-bottom active">
                         <a href="projects.html">Projects</a>
                     </li>
                         <li class="hvr-bounce-to-bottom">
@@ -113,3 +114,198 @@
             </li>
         </ul>
     </aside>
+
+
+
+
+    <!--projects  -->
+
+    <div class="container bootstrap snippet">
+        <h1 class="text-center section-title">Our Projects</h1>
+        <hr>
+        <section id="portfolio" class="gray-bg padding-top-bottom">
+            <div class="container bootstrap snippet">
+                <!--==== Portfolio Filters ====-->
+                <div class="categories">
+                    <ul>
+                        <li class="active">
+                            <a href="#" data-filter="*">All Categories</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".web-design">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".apps">Apps</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".psd">PSD</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ======= Portfolio items ===-->
+                <div class="projects-container scrollimation in">
+                    <div class="row">
+                        <article class="col-md-4 col-sm-6 portfolio-item web-design apps psd">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/nature/2" alt="">
+                                    <h2 class="project-title">Billing</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="enlarge cboxElement" href="#" title="Bills Project"><i class="fa fa-expand fa-fw"></i></a>
+                                <a class="link" href="#"><i class="fa fa-eye fa-fw"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item apps">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/fashion/4" alt="">
+                                    <h2 class="project-title">Augmented Tourist</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="link centered" href=""><i class="fa fa-eye fa-fw"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item web-design psd">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/city/2" alt="">
+                                    <h2 class="project-title">Get Colored</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="enlarge centered cboxElement" href="#" title="Get Colored"><i class="fa fa-expand fa-fw"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item apps">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/cats/4" alt="">
+                                    <h2 class="project-title">Holiday Selector</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="enlarge cboxElement" href="#" title="Holiday Selector"><i class="fa fa-expand fa-fw"></i></a>
+                                <a class="link" href="#"><i class="fa fa-eye fa-fw"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item web-design psd">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/technics/3" alt="">
+                                    <h2 class="project-title">Scavenger Hunt</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="enlarge cboxElement" href="#" title="Scavenger Hunt"><i class="fa fa-expand fa-fw"></i></a>
+                                <a class="link" href="#"><i class="fa fa-eye fa-fw"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item web-design apps">
+                            <div class="portfolio-thumb in">
+                                <a href="#" class="main-link">
+                                    <img class="img-responsive img-center" src="http://lorempixel.com/400/300/nightlife/4" alt="">
+                                    <h2 class="project-title">Sonor</h2>
+                                    <span class="overlay-mask"></span>
+                                </a>
+                                <a class="enlarge cboxElement" href="#" title="Sonor"><i class="fa fa-expand fa-fw"></i></a>
+                                <a class="link" href="#"><i class="fa fa-eye fa-fw"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-grids">
+                <div class="col-md-4 footer-grid ">
+                    <h5 class="title">CONTACTS</h5>
+                    <p>
+                        <i class="fa fa-map-marker"></i>Pelleesque conquat dignissim lacus quis altrcies.</p>
+                    <div class="footer-grid-address">
+                        <p>
+                            <i class="fa fa-mobile"></i>: 800-255-9999</p>
+                        <p>
+                            <i class="fa fa-mobile"></i>: 1234 568</p>
+                        <p>
+                            <i class="fa fa-envelope"></i>:
+                            <a class="email-link" href="mailto:example@mail.com">mail@example.com</a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4 footer-grid text-center">
+                    <h5 class="title">STAY CONNECTED</h5>
+                    <ul class="fa-social">
+                        <li>
+                            <a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://youtube.com/" target="_blank"><i class="fa fa-youtube"></i> </a>
+                        </li>
+                        <li>
+                            <a href="intent://send/01005399170#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-grid">
+                    <h5 class="title">SIGN UP FOR OUR EMAIL UPDATES</h5>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="copy-right">
+        <div class="container">
+            <p>© 2015
+                <a href="index.html">Celebratory</a>. All rights reserved | Design by
+                <a href="http://rootcave.com">Root Cave </a>
+            </p>
+        </div>
+    </div>
+    <!--//footer-->
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             var defaults = {
+             containerID: 'toTop', // fading element id
+             containerHoverID: 'toTopHover', // fading element hover id
+             scrollSpeed: 1200,
+             easingType: 'linear'
+             };
+             */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!--//smooth-scrolling-of-move-up-->
+    <!-- Bootstrap core JavaScript==================================================-
+    ->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+
+
+</div></body></html>
+
+
