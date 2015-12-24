@@ -618,6 +618,29 @@ h5.caption {
     line-height: 1.8em;
     width: 75%;
 }
+
+/*---hiring---*/
+.hiring{
+    background: url(../img/hiring/Celebratory-HIRING_02.jpg) no-repeat center center ;
+    min-height: 403px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+}
+.hiring-info h4 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 2em;
+    margin-top: 200px;
+    margin-left:50px;
+    margin-right: 60px;
+    color: white;
+}
+
+
 /*--view--*/
 .bnr-galry {
     margin-top: 5em;
