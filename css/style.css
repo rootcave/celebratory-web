@@ -223,6 +223,66 @@ a.more.more-right:hover {
     border-color: #E88010;
     color: #fff;
 }
+
+/*------------------Services --------------------*/
+.service-page-title{
+    text-align: center;
+    font-size: 4em;
+    color: orange;
+
+}
+.service-page-subtitle p{
+text-align: center;
+    font-size: 1.8em;
+}
+.service-tomorrowland{
+background: url("../img/services/p1.jpg") no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 396px;
+    font-size: 2em;
+    color: black;
+
+
+}
+.service-tomorrowland .service-caption{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.service-gadsby{
+    background: url("../img/services/p2.jpg") no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:356px ;
+    font-size: 2em;
+}
+.service-gadsby .service-caption{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.service-caribians{
+    background: url("../img/services/p3.jpg") no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:356px ;
+    font-size: 2em;
+}
+.service-caribians .service-caption{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
 /*------------------Projects --------------------*/
 
 
