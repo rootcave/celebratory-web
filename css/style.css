@@ -11,6 +11,9 @@ body{
 	margin:0;
 	font-family: 'Century Gothic';
 }
+.bg-body{
+    background-color: #EFEAEA;
+}
 @font-face {
       font-family: 'Century Gothic';
       src: url(../fonts/GOTHIC.TTF) format('truetype');
@@ -225,6 +228,7 @@ a.more.more-right:hover {
 }
 
 /*------------------Services --------------------*/
+
 .service-page-title{
     text-align: center;
     font-size: 4em;
@@ -236,31 +240,26 @@ text-align: center;
     font-size: 1.8em;
 }
 .service-tomorrowland{
-background: url("../img/services/p1.jpg") no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+background-image: url("../img/services/p1.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
     min-height: 396px;
-    font-size: 2em;
-    color: black;
 
 
 }
 .service-tomorrowland .service-caption{
     font-size: 3em;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 180px;
     color: white;
 }
 .service-gadsby{
-    background: url("../img/services/p2.jpg") no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../img/services/p2.jpg")  ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
     min-height:356px ;
-    font-size: 2em;
 }
 .service-gadsby .service-caption{
     font-size: 2em;
@@ -269,15 +268,53 @@ background: url("../img/services/p1.jpg") no-repeat center center fixed ;
     color: white;
 }
 .service-caribians{
-    background: url("../img/services/p3.jpg") no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../img/services/p3.jpg")  ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
     min-height:356px ;
-    font-size: 2em;
 }
 .service-caribians .service-caption{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.service-indian{
+    background-image: url("../img/services/p4.jpg")  ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 395px;
+
+}
+.service-indian .service-caption{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+}
+.service-gadsby2{
+    background-image: url("../img/services/p5.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 356px;
+}
+.service-gadsby2 .service-caption{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.service-caribians2{
+    background-image: url("../img/services/p6.jpg")  ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height:356px ;
+}
+.service-caribians2 .service-caption{
     font-size: 2em;
     text-align: center;
     padding-top: 150px;
@@ -645,11 +682,11 @@ margin: 0.8em;
 }
 .welcome{
 	text-align:center;
-        background: url(../img/home/Celebratory-homeNew_02.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 403px;
     
 }
 h3.title {
@@ -681,12 +718,11 @@ h5.caption {
 
 /*---hiring---*/
 .hiring{
-    background: url(../img/hiring/Celebratory-HIRING_02.jpg) no-repeat center center ;
+    background-image: url(../img/hiring/Celebratory-HIRING_02.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
     min-height: 403px;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
 }
 .hiring-info h4 {
@@ -850,12 +886,11 @@ h5.caption {
 }
 /*--//view--*/
 .slid {
-    background: url(../img/home/Celebratory-homeNew_04.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
+    background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 315px;
 
 }
 .slid h4 {
@@ -981,22 +1016,22 @@ h5.caption {
 /*--special--*/
 /*---start-footer-----*/
 .footer {
-    background: url("../img/home/footer.jpg") no-repeat center center ;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background-image: url("../img/home/footer.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 157px;
 }
 .footer-grid{
 	float:left;
-	width:33%;
+
 }
 .footer-grid h3.title {
-    margin-top: 0.8em;
+    padding-top: 0.7em;
     font-size: 2em;
     text-align: left;
     color: #000000;
-    margin-bottom: 0.8em;
+
 }
 
 .footer-grid ul {
@@ -1607,11 +1642,11 @@ h2.typoh2{
 
 /*------qe------*/
 .qe{
-    background: url(../img/home/Celebratory-homeNew_06.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 405px;
     color: white;
 }
 .qe h4 {
