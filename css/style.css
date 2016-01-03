@@ -47,8 +47,22 @@ body a:hover{
     -o-background-size: cover;
     background-size: cover;
 }
+.header-img{
+    margin-bottom: 0.7em;
+}
+h3.header-text{
+  margin: 0.7em;
+}
 /*--//banner--*/
+
 @media (min-width: 768px){
+    .banner{
+        background: url(../img/home/header.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 .header-img{
     max-width:58% !important;
     margin-left: auto;
@@ -71,7 +85,7 @@ body a:hover{
 }
 @media (min-width: 481px) and (max-width: 767px){
     .header-img{
-        max-width:40% !important;
+        max-width:35% !important;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -677,9 +691,12 @@ margin: 0.8em;
 }
 /*-- Slider part Ends Here --*/
 /*--welcome--*/
+/*
 .welcome,.team,.about,.about-team,.gallery,.contact,.codes{
 	padding:6em 0;
 }
+*/
+/*---Home Page----*/
 .welcome{
 	text-align:center;
         background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
@@ -704,7 +721,7 @@ h5.caption {
 .welcome-info h3 {
     font-size: 3em;
     color: #ffffff;
-    margin: 0 auto;
+    margin-top: 1em;
     line-height: 1.8em;
     width: 75%;
 }
@@ -715,7 +732,279 @@ h5.caption {
     line-height: 1.8em;
     width: 75%;
 }
+/*--Welcome Other Screens--*/
+@media (min-width: 767px) and (max-width: 1280px){
+    .welcome{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        min-height: 403px;
+    }
+    .welcome-info h3 {
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 2.2em;
+        width: 75%;
+    }
+    .welcome-info p {
+        font-size: 1em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 480px) and (max-width:760px ){
+    .welcome{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 403px;
+    }
+    .welcome-info h3 {
 
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .welcome-info p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 300px) and (max-width:479px ){
+    .welcome{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 403px;
+    }
+    .welcome-info h3 {
+
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .welcome-info p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+/*--//Planning and Production--*/
+.slid {
+    text-align: center;
+    background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 315px;
+
+}
+.slid h4 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-top: 1em;
+    line-height: 1.8em;
+    width: 75%;
+}
+.slid p {
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0 auto;
+    line-height: 1.8em;
+    width: 75%;
+}
+/*---Planning and Production Other Screens---*/
+@media (min-width: 767px) and (max-width: 1280px){
+    .slid{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        min-height: 315px;
+    }
+    .slid h4 {
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 2.2em;
+        width: 75%;
+    }
+    .slid p {
+        font-size: 1em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 480px) and (max-width:760px ){
+    .slid{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 315px;
+    }
+    .slid h4 {
+
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .slid p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 300px) and (max-width:479px ){
+    .slid{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 315px;
+    }
+    .slid h4 {
+
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .slid p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+/*------qe------*/
+.qe{
+    text-align: center;
+    background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 405px;
+    color: white;
+}
+.qe h4 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-top: 1em;
+    line-height: 1.8em;
+    width: 75%;
+}
+.qe p {
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0 auto;
+    line-height: 1.8em;
+    width: 75%;
+}
+/*---QE Other Screens---*/
+@media (min-width: 767px) and (max-width: 1280px){
+    .qe{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        min-height: 315px;
+    }
+    .qe h4 {
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 2.2em;
+        width: 75%;
+    }
+    .qe p {
+        font-size: 1em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 480px) and (max-width:760px ){
+    .qe{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 315px;
+    }
+    .qe h4 {
+
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .qe p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
+@media (min-width: 300px) and (max-width:479px ){
+    .qe{
+        text-align:center;
+        background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        min-height: 315px;
+    }
+    .qe h4 {
+
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1em;
+        line-height: 1.8em;
+        width: 75%;
+    }
+    .qe p {
+        font-size: 0.8em;
+        color: #ffffff;
+        margin: 0 auto;
+        line-height: 1.8em;
+        width: 75%;
+    }
+}
 /*---hiring---*/
 .hiring{
     background-image: url(../img/hiring/Celebratory-HIRING_02.jpg);
@@ -884,27 +1173,7 @@ h5.caption {
     92% { -webkit-transform: translateY(-12px);}
     55%, 75%, 87%, 97%, 100% { -webkit-transform: translateY(0px);}
 }
-/*--//view--*/
-.slid {
-    background-image: url(../img/home/Celebratory-homeNew_04.jpg) ;
-    background-repeat:no-repeat;
-    background-size:100%;
-    background-position:center;
-    min-height: 315px;
 
-}
-.slid h4 {
-    font-size: 6em;
-    color: #fff;
-}
-.slid p {
-    font-size: 1em;
-    color: #fff;
-    line-height: 1.8em;
-    width: 50%;
-    letter-spacing: 1px;
-    margin: 2em auto;
-}
 /*--team--*/
 .team-grids{
 	margin:4em 0 0;
@@ -1111,6 +1380,7 @@ h5.caption {
 	-webkit-transition: 0.5s ease;
 	text-transform:lowercase;
 }
+/*---footer other sizes-----*/
 /*---start-copy-right-----*/
 .copy-right {
     text-align: center;
@@ -1574,15 +1844,15 @@ h2.typoh2{
 .bnr-text p {
     width: 64%;
 }
-.banner {
-    min-height: 769px;
-}
+
 .bnr-text h2 {
     font-size: 5em;
 }
-.welcome, .team, .about, .about-team, .gallery, .contact, .codes {
+/*
+.welcome, .slid,.qe,.team, .about, .about-team, .gallery, .contact, .codes {
     padding: 5em 0;
 }
+*/
 .welcome-info p {
     width: 78%;
 }
@@ -1622,9 +1892,7 @@ h2.typoh2{
 .navbar-header h1 {
     font-size: 5.2em;
 }
-.banner {
-    min-height: 769px;
-}
+
 .bnr-text {
     margin-top: 7em;
 }
@@ -1640,25 +1908,7 @@ h2.typoh2{
 }
 
 
-/*------qe------*/
-.qe{
-    background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
-    background-repeat:no-repeat;
-    background-size:100%;
-    background-position:center;
-    min-height: 405px;
-    color: white;
-}
-.qe h4 {
-    font-size: 4em;
-    padding: 1em;
-}
-.qe p {
-    width: 75%;
-    font-size: 1.25em;
-    margin-bottom:0;
-    padding: 2em;
-}
+
 
 
 @media(max-width:991px){
@@ -1678,9 +1928,11 @@ h2.typoh2{
 .social-icons {
     top: 18%;
 }
-.welcome,  .about, .about-team, .gallery, .contact, .codes {
+/*
+.welcome,.slid,.qe,  .about, .about-team, .gallery, .contact, .codes {
     padding: 4em 0;
 }
+*/
 h5.caption {
     font-size: 1.1em;
     margin: 0.5em 0;
@@ -1863,9 +2115,7 @@ ul.nav.navbar-nav.navbar-left {
 }
 }
 @media(max-width:640px){
-.banner {
-    min-height: 769px;
-}
+
 .social-icons {
     top: 17%;
     right: inherit;
@@ -1887,10 +2137,11 @@ ul.nav.navbar-nav.navbar-left {
 .bnr-text {
     margin-top: -6em;
 }
-
-.welcome, .qe, .about, .about-team, .gallery, .contact, .codes {
+/*
+.welcome,.slid ,.qe, .about, .about-team, .gallery, .contact, .codes {
     padding: 3em 0;
 }
+*/
 h5.caption {
     font-size: 1em;
     margin: 0 0 .5em;
@@ -2094,9 +2345,7 @@ h3.title {
 .bnr-text p {
     margin: 1em auto 1.5em;
 }
-.banner {
-    min-height: 769px;
-}
+
 .bnr-text {
     margin-top: -3em;
 }
@@ -2104,9 +2353,11 @@ h3.title {
     padding: 0.2em 2em;
     border-width: 2px;
 }
+/*
 .welcome, .qe, .about, .about-team, .gallery, .contact, .codes {
     padding: 2em 0;
 }
+*/
 h5.caption {
     font-size: 0.9em;
 }
@@ -2271,9 +2522,7 @@ h3.hdg {
     font-size: 0.85em;
     padding: 0.2em 1.5em;
 }
-.banner {
-    min-height: 375px;
-}
+
 .bnr-text {
     margin-top: 1.5em;
 }
@@ -2290,9 +2539,11 @@ h3.hdg {
 h3.title {
     font-size: 3.5em;
 }
+/*
 .welcome, .team, .about, .about-team, .gallery, .contact, .codes {
     padding: 1.5em 0;
 }
+*/
 .view h4 {
     font-size: 2.5em;
 }
