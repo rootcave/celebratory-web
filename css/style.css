@@ -542,12 +542,12 @@ background-image: url("../img/services/p1.jpg") ;
     left: 50%;
     margin-left: -20px;
     position: inherit;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     margin-top: 40px;
     opacity: 0;
-    background: url(images/zoom.png);
-    background-size: 40px 40px;
+    background: url(../img/icons/zoom.png);
+    background-size: 32px 32px;
     transition: all 0.3s ease 0.1s;
     -moz-transition: all 0.3s ease 0.2s;
     -webkit-transition: all 0.3s ease 0.2s;
@@ -682,14 +682,14 @@ background-image: url("../img/services/p1.jpg") ;
 
 
 .project-image-slider .bx-wrapper .bx-next {
-    background: url("images/project_slider_right.png") no-repeat;
+    background: url("../img/icons/arrow_right.png") no-repeat;
     background-size: 35px 65px;
     opacity: 0.3;
     right: -90px;
 }
 
 .project-image-slider .bx-wrapper .bx-prev {
-    background: url("images/project_slider_left.png") no-repeat;
+    background: url("../img/icons/arrow_left.png") no-repeat;
     background-size: 35px 65px;
     opacity: 0.3;
     left: -90px;
@@ -800,7 +800,7 @@ div.mc-image {
 }
 
 .in-slide-content div.info-slide {
-    background: #FFF url(images/info.png) no-repeat left bottom;
+    background: #FFF url(../img/icons/info.png) no-repeat left bottom;
     background-size: 46px 46px;
     position: absolute;
     top: 30px;
