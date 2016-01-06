@@ -246,7 +246,7 @@ a.more.more-right:hover {
 .service-page-title{
     text-align: center;
     font-size: 4em;
-    color: orange;
+    color: #E4500F;
 
 }
 .service-page-subtitle p{
@@ -708,7 +708,7 @@ margin: 0.8em;
 }
 h3.title {
     font-size: 5em;
-    color: #E88010;
+    color: #E4500F;
     text-align: center;
 }
 h5.caption {
@@ -1292,13 +1292,13 @@ h5.caption {
     min-height: 157px;
 }
 .footer-grid{
-	float:left;
 
 }
-.footer-grid h3.title {
-    padding-top: 0.7em;
+.footer-grid h3 {
+
+margin-top: 0.7em;
     font-size: 2em;
-    text-align: left;
+    text-align: center;
     color: #000000;
 
 }
@@ -1313,7 +1313,7 @@ h5.caption {
 }
 
 .footer-grid ul li a i {
-    background: #d58512;
+    background: orange;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -1326,10 +1326,10 @@ h5.caption {
 }
 
 .footer-grid ul li a i .fa-facebook {
-    background:#3b5998
+    color:#3b5998
 }
 .footer-grid ul li a i .fa-linkedin {
-    background:#007bb6
+    color:#007bb6
 }
 .footer-grid ul li a i .fa-twitter {
     background:#00aced
@@ -1374,7 +1374,6 @@ h5.caption {
 	margin:0;
 }
 .email-link{
-	color:#FFF;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
@@ -1704,6 +1703,9 @@ h2.typoh2{
 	height: 400px;
 	border:none;
 }
+.contact h3 .title{
+    color: #E4500F;
+}
 .contact-grids {
     margin-top: 3em;
 }
@@ -1711,6 +1713,9 @@ h2.typoh2{
     background: url(../img/home/Celebratory-homeNew_02.jpg)no-repeat 0px 0px;
     background-size: cover;
 	padding:5em 0;
+}
+.contact-info h3.title {
+    color: #ffc107;
 }
 .contact-left p {
     font-size: 1em;
