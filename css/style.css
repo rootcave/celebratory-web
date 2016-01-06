@@ -387,9 +387,9 @@ background-image: url("../img/services/p1.jpg") ;
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
     background: #fff;
-    color: #EFB21D;
+    color: #E4500F;
     text-decoration: none;
-    border: #EFB21D solid 1px;
+    border: #E4500F solid 1px;
 }
 
 .section-title h2 {
