@@ -682,14 +682,14 @@ background-image: url("../img/services/p1.jpg") ;
 
 
 .project-image-slider .bx-wrapper .bx-next {
-    background: url("../img/icons/arrow_right.png") no-repeat;
+    background: url("../img/icons/arrow_right2.png") no-repeat;
     background-size: 35px 65px;
     opacity: 0.3;
     right: -90px;
 }
 
 .project-image-slider .bx-wrapper .bx-prev {
-    background: url("../img/icons/arrow_left.png") no-repeat;
+    background: url("../img/icons/arrow_left2.png") no-repeat;
     background-size: 35px 65px;
     opacity: 0.3;
     left: -90px;
@@ -1095,7 +1095,7 @@ h5.caption {
     }
     .welcome-info h3 {
 
-        font-size: 2em;
+        font-size: 1.7em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
@@ -1120,7 +1120,7 @@ h5.caption {
     }
     .welcome-info h3 {
 
-        font-size: 2em;
+        font-size: 1.4em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
@@ -1144,7 +1144,7 @@ h5.caption {
     min-height: 315px;
 
 }
-.slid h4 {
+.slid h3 {
     font-size: 3em;
     color: #ffffff;
     margin-top: 1em;
@@ -1168,18 +1168,18 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .slid h4 {
+    .slid h3 {
         font-size: 2em;
         color: #ffffff;
         margin-top: 1em;
-        line-height: 2.2em;
+        line-height: 1.7em;
         width: 75%;
     }
     .slid p {
         font-size: 1em;
         color: #ffffff;
         margin: 0 auto;
-        line-height: 1.8em;
+        line-height: 1.7em;
         width: 75%;
     }
 }
@@ -1192,9 +1192,9 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .slid h4 {
+    .slid h3 {
 
-        font-size: 2em;
+        font-size: 1.8em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
@@ -1217,9 +1217,9 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .slid h4 {
+    .slid h3 {
 
-        font-size: 2em;
+        font-size: 1.4em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
@@ -1243,7 +1243,7 @@ h5.caption {
     min-height: 405px;
     color: white;
 }
-.qe h4 {
+.qe h3 {
     font-size: 3em;
     color: #ffffff;
     margin-top: 1em;
@@ -1267,7 +1267,7 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .qe h4 {
+    .qe h3 {
         font-size: 2em;
         color: #ffffff;
         margin-top: 1em;
@@ -1291,12 +1291,12 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .qe h4 {
+    .qe h3 {
 
-        font-size: 2em;
+        font-size: 1.8em;
         color: #ffffff;
         margin-top: 1em;
-        line-height: 1.8em;
+        line-height: 1.7em;
         width: 75%;
     }
     .qe p {
@@ -1316,7 +1316,7 @@ h5.caption {
         background-position:center;
         min-height: 315px;
     }
-    .qe h4 {
+    .qe h3 {
 
         font-size: 2em;
         color: #ffffff;
