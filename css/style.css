@@ -96,8 +96,8 @@ h3.header-text{
 }
 /*--top-nav--*/
 .logo{
-    width: 166px;
-    height: 166px
+    width: 130px;
+    height: 110px
         
 }
 .navbar-header h1 {
@@ -3002,3 +3002,7 @@ h3.title {
 }
 }
 /*--//responsive-design---*/
+
+.paragraph {
+    display: none;
+}
