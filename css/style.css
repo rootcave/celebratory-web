@@ -1623,11 +1623,11 @@ h5.caption {
 .footer-grid{
 
 }
-.footer-grid h3 {
+.footer-grid h3.title {
 
 margin-top: 0.7em;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     color: #000000;
 
 }
@@ -1709,6 +1709,153 @@ margin-top: 0.7em;
 	text-transform:lowercase;
 }
 /*---footer other sizes-----*/
+@media (min-width: 767px) and (max-width: 1280px){
+    .footer {
+    background-image: url("../img/home/footer.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 157px;
+}
+.footer-grid{
+
+}
+.footer-grid h3.title {
+
+margin-top: 0.5em;
+    font-size: 1em;
+    text-align: left;
+    color: #000000;
+
+}
+
+.footer-grid ul {
+    overflow: auto;
+}
+
+.footer-grid ul li {
+    list-style-type: none;
+    float: left;
+}
+    .footer-grid p {
+    font-size: 0.7em;
+    color: #9E9C9C;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+.footer-grid ul li a i {
+    background: orange;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+}
+
+
+@media (min-width: 480px) and (max-width:766px ){
+    .footer {
+    background-image: url("../img/home/footer.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 157px;
+}
+.footer-grid{
+
+}
+.footer-grid h3.title {
+
+margin-top: 0.3em;
+    font-size: 0.5em;
+    text-align: left;
+    color: #000000;
+
+}
+    .footer-grid p {
+    font-size: 0.5em;
+    color: #9E9C9C;
+    line-height: 1em;
+    margin-bottom: 0.2em;
+}
+
+.footer-grid ul {
+    overflow: auto;
+}
+
+.footer-grid ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.footer-grid ul li a i {
+    background: orange;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+}
+@media (min-width: 300px) and (max-width:479px ){
+    .footer {
+    background-image: url("../img/home/footer.jpg") ;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 157px;
+        display: inline-block;
+}
+.footer-grid{
+
+}
+.footer-grid h3.title {
+
+margin-top: 0.1em;
+    font-size: 0.5em;
+    text-align: left;
+    color: #000000;
+
+}
+    .footer-grid p {
+    font-size: 0.5em;
+    color: #9E9C9C;
+    line-height: 1em;
+    margin-bottom: 0.1em;
+}
+
+.footer-grid ul {
+    overflow: auto;
+}
+
+.footer-grid ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.footer-grid ul li a i {
+    background: orange;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+}
 /*---start-copy-right-----*/
 .copy-right {
     text-align: center;
@@ -2273,22 +2420,10 @@ h5.caption {
 .special-grids:nth-child(2) {
     margin-top: 2em;
 }
-.footer-grid {
-    margin-right: 9%;
-}
-.footer-grid {
-    margin-right: 9%;
-    width: 41%;
-}
-.footer-grid:nth-child(2) {
-    margin-bottom: 5em;
-}
-.footer {
-    padding: 4em 0;
-}
-.footer-grid h3.title {
-    margin-bottom: 0.5em;
-}
+
+
+
+
 .about-grids h4 {
     margin: 1em 0 .5em;
 }
@@ -2556,16 +2691,7 @@ h5.caption {
 .contact-left ul li {
     font-size: 0.9em;
 }
-.footer {
-    padding: 3em 0;
-}
-.footer-grid h3.title {
-    font-size: 3em;
-	margin-bottom: 0.3em;
-}
-.footer-grid:nth-child(2) {
-    margin-bottom: 3em;
-}
+
 }
 @media(max-width:480px){
 .social-icons ul li a {
@@ -2671,15 +2797,7 @@ h5.caption {
 .footer-grid ul li a {
     font-size: 0.9em;
 }
-.footer-grid p {
-    font-size: 0.9em;
-}
-.footer-grid h3.title {
-    font-size: 2.8em;
-}
-.footer-grid:nth-child(2) {
-    margin-bottom: 2em;
-}
+
 .copy-right p {
     font-size: 0.9em;
 }
@@ -2848,9 +2966,7 @@ h3.title {
     width: 100%;
     margin: 0 0 1.5em 0;
 }
-.footer-grid h3.title {
-    margin-bottom: 0.1em;
-}
+
 .about-slid {
     padding: 2em 0;
 }
