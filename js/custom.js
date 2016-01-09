@@ -83,14 +83,18 @@ $(document).ready(function() {
             columnNumb = 1;
 
 
-        if (winWidth > 1024) {
+        if(minWidth >1440){
+                        columnNumb = 4;
+
+        }
+        else if (winWidth > 1024 && winWidth <1440) {
             columnNumb = 4;
-        } else if (winWidth > 900) {
-            columnNumb = 2;
-        } else if (winWidth > 479) {
-            columnNumb = 2;
+        } else if (winWidth > 900 && winWidth < 1024) {
+            columnNumb = 4;
+        } else if (winWidth > 479 && winWidth <900) {
+            columnNumb = 3;
         } else if (winWidth < 479) {
-            columnNumb = 1;
+            columnNumb = 2;
         }
 
         return columnNumb;
