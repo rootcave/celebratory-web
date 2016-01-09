@@ -1343,17 +1343,64 @@ h5.caption {
     min-height: 403px;
 
 }
-.hiring-info h4 {
+.hiring-info h3 {
     display: inline-block;
-    text-align: center;
     vertical-align: baseline;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 200px;
-    margin-left:50px;
-    margin-right: 60px;
     color: white;
 }
+@media (min-width: 767px) and (max-width: 1280px){
+  .hiring{
+    background-image: url(../img/hiring/Celebratory-HIRING_02.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 403px;
 
+}
+.hiring-info h3 {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 1.4em;
+    margin-top: 200px;
+    color: white;
+}  
+}
+@media (min-width: 461px) and (max-width: 765px){
+   .hiring{
+    background-image: url(../img/hiring/Celebratory-HIRING_02.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 403px;
+
+}
+.hiring-info h3 {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 1.7em;
+    margin-top: 200px;
+    color: white;
+} 
+}
+@media (min-width: 300px) and (max-width: 460px){
+    .hiring{
+    background-image: url(../img/hiring/Celebratory-HIRING_02.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    min-height: 403px;
+
+}
+.hiring-info h3 {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 0.5em;
+    margin-top: 200px;
+    color: white;
+}
+}
 
 /*--view--*/
 .bnr-galry {
