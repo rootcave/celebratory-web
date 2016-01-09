@@ -1065,8 +1065,9 @@ h5.caption {
     .welcome{
         text-align:center;
         background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
+    
         background-repeat:no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         min-height: 403px;
     }
@@ -1085,7 +1086,7 @@ h5.caption {
         width: 75%;
     }
 }
-@media (min-width: 480px) and (max-width:760px ){
+@media (min-width: 480px) and (max-width:766px ){
     .welcome{
         text-align:center;
         background-image: url(../img/home/Celebratory-homeNew_02.jpg) ;
@@ -1264,7 +1265,7 @@ h5.caption {
         text-align:center;
         background-image: url(../img/home/Celebratory-homeNew_06.jpg) ;
         background-repeat:no-repeat;
-        background-size:contain;
+        background-size:100%;
         background-position:center;
         min-height: 315px;
     }
@@ -2186,28 +2187,7 @@ h2.typoh2{
     padding: 5em 0;
 }
 */
-.welcome-info p {
-    width: 78%;
-}
-.view .mask, .view .content {
-    padding: 3.5em 0;
-}
-.slid p {
-    width: 61%;
-}
-.slid {
-    padding: 6em 0;
-}
 
-.special-grids:nth-child(2) {
-    padding-right: 0;
-}
-.about-slid h3 {
-    font-size: 6em;
-}
-.gallery-grid {
-    width: 30.3%;
-}
 .textbox h4 {
     margin-top: 5em;
 }
@@ -2232,12 +2212,8 @@ h2.typoh2{
 .about-grids h4 {
     font-size: 1.3em;
 }
-.about-slid {
-    padding: 5em 0;
-}
-.thumbnail.team-thmnl {
-    padding: 0;
-}
+
+
 }
 
 
@@ -2270,9 +2246,7 @@ h5.caption {
     font-size: 1.1em;
     margin: 0.5em 0;
 }
-.welcome-info p {
-    width: 100%;
-}
+
 .bnr-galry {
     margin-top: 4em;
 }
@@ -2401,9 +2375,7 @@ h3.title {
 .contact-info {
     padding: 4em 0;
 }
-.about-slid h3 {
-    font-size: 5em;
-}
+
 }
 @media(max-width:767px){
 .navbar-header.navbar-left {
@@ -2479,9 +2451,7 @@ h5.caption {
     font-size: 1em;
     margin: 0 0 .5em;
 }
-.welcome-info p {
-    font-size: 0.9em;
-}
+
 .bnr-galry {
     margin-top: 2.5em;
 }
@@ -2494,54 +2464,20 @@ h5.caption {
 .view .mask, .view .content {
     padding: 2em 0;
 }
-    .qe {
-        padding: 3em 0;
-    }
-    .qe h4 {
-        font-size: 2.6em;
-    }
-    .qe p {
-        width: 100%;
-        font-size: 0.9em;
-        margin: 1em auto;
-    }
-
-
-
-
-.slid {
-    padding: 4em 0;
-}
-.slid h4 {
-    font-size: 3.6em;
-}
-.slid p {
-    width: 100%;
-    font-size: 0.9em;
-	margin: 1em auto;
-}
-
-
-
-    .qe {
-        padding: 2em 0;
-    }
-    .qe h4 {
-        font-size: 1.6em;
-    }
-    .qe p {
-        width: 100%;
-        font-size: 0.9em;
-        margin: 1em auto;
-    }
+   
 
 
 
 
 
-h3.title {
-    font-size: 4em;
-}
+
+
+  
+
+
+
+
+
 .team-grids {
     margin: 0;
 }
@@ -2573,16 +2509,7 @@ h3.title {
 .about-grids p {
     font-size: 0.9em;
 }
-.about-slid h3 {
-    font-size: 4em;
-}
-.about-slid p {
-    font-size:.9em;
-    width: 97%;
-}
-.about-slid {
-    padding: 4em 0;
-}
+
 .about-team .team-grids {
     float: left;
     width: 50%;
@@ -2710,15 +2637,7 @@ h5.caption {
 .view .mask, .view .content {
     padding: 4em 0;
 }
-.slid h4 {
-    font-size: 3em;
-}
-.slid p {
-    letter-spacing: 0px;
-}
-.slid {
-    padding: 3em 0;
-}
+
 .team-info {
     padding: 2em 0 0;
 }
@@ -2890,16 +2809,7 @@ h3.title {
 .bnr-galry-right {
     margin-top: 1.5em;
 }
-.slid h4 {
-    font-size: 2.3em;
-}
-.slid {
-    padding: 2em 0;
-}
-.slid p {
-    font-size: 0.85em;
-	margin-bottom:0;
-}
+
 .team-info {
     padding: 1.5em 0 0;
 }
