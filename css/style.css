@@ -1035,7 +1035,7 @@ margin: 0.8em;
     
 }
 h3.title {
-    font-size: 5em;
+    font-size: 4em;
     color: #E4500F;
     text-align: center;
 }
@@ -1047,11 +1047,10 @@ h5.caption {
     margin: 1em 0;
 }
 .welcome-info h3 {
-    font-size: 3em;
+    font-size: 2em;
     color: #ffffff;
     margin-top: 1em;
     line-height: 1.8em;
-    width: 75%;
 }
 .welcome-info p {
     font-size: 1em;
@@ -1072,11 +1071,10 @@ h5.caption {
         min-height: 403px;
     }
     .welcome-info h3 {
-        font-size: 2em;
+        font-size: 1.8em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 2.2em;
-        width: 75%;
     }
     .welcome-info p {
         font-size: 1em;
@@ -1097,11 +1095,10 @@ h5.caption {
     }
     .welcome-info h3 {
 
-        font-size: 1.7em;
+        font-size: 1.5em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
-        width: 75%;
     }
     .welcome-info p {
         font-size: 0.8em;
@@ -1122,11 +1119,10 @@ h5.caption {
     }
     .welcome-info h3 {
 
-        font-size: 1.4em;
+        font-size: 1.3em;
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
-        width: 75%;
     }
     .welcome-info p {
         font-size: 0.8em;
@@ -1151,14 +1147,12 @@ h5.caption {
     color: #ffffff;
     margin-top: 1em;
     line-height: 1.8em;
-    width: 75%;
 }
 .slid p {
     font-size: 1em;
     color: #ffffff;
     margin: 0 auto;
     line-height: 1.8em;
-    width: 75%;
 }
 /*---Planning and Production Other Screens---*/
 @media (min-width: 767px) and (max-width: 1280px){
@@ -1175,14 +1169,12 @@ h5.caption {
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.7em;
-        width: 75%;
     }
     .slid p {
         font-size: 1em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.7em;
-        width: 75%;
     }
 }
 @media (min-width: 480px) and (max-width:760px ){
@@ -1200,14 +1192,12 @@ h5.caption {
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
-        width: 75%;
     }
     .slid p {
         font-size: 0.8em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.8em;
-        width: 75%;
     }
 }
 @media (min-width: 300px) and (max-width:479px ){
@@ -1225,14 +1215,12 @@ h5.caption {
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
-        width: 75%;
     }
     .slid p {
         font-size: 0.8em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.8em;
-        width: 75%;
     }
 }
 /*------qe------*/
@@ -1250,14 +1238,12 @@ h5.caption {
     color: #ffffff;
     margin-top: 1em;
     line-height: 1.8em;
-    width: 75%;
 }
 .qe p {
     font-size: 1em;
     color: #ffffff;
     margin: 0 auto;
     line-height: 1.8em;
-    width: 75%;
 }
 /*---QE Other Screens---*/
 @media (min-width: 767px) and (max-width: 1280px){
@@ -1273,15 +1259,13 @@ h5.caption {
         font-size: 2em;
         color: #ffffff;
         margin-top: 1em;
-        line-height: 2.2em;
-        width: 75%;
+        line-height: 1.8em;
     }
     .qe p {
         font-size: 1em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.8em;
-        width: 75%;
     }
 }
 @media (min-width: 480px) and (max-width:760px ){
@@ -1299,14 +1283,12 @@ h5.caption {
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.7em;
-        width: 75%;
     }
     .qe p {
         font-size: 0.8em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.8em;
-        width: 75%;
     }
 }
 @media (min-width: 300px) and (max-width:479px ){
@@ -1324,14 +1306,12 @@ h5.caption {
         color: #ffffff;
         margin-top: 1em;
         line-height: 1.8em;
-        width: 75%;
     }
     .qe p {
         font-size: 0.8em;
         color: #ffffff;
         margin: 0 auto;
         line-height: 1.8em;
-        width: 75%;
     }
 }
 /*---hiring---*/
