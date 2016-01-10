@@ -2,17 +2,20 @@ $(document).ready(function() {
     //START WELCOME
     $(".welcome").on({
         mouseenter: function() {
-            $('#welcome').fadeIn(3000);
-           
-             $('.welcome-title').fadeOut(1000);
+            $('#welcome').show(100);
+           $('.welcome').css({
+               'opacity':'0.8'
+           });
 
-             $('#welcome').css({'font-size':'1.2em',
-                                'margin-top':'0.3em'
+             $('#welcome').css({'font-size':'1em'
+
                                });
         },
         mouseleave: function() {
-             $('#welcome').fadeOut(1000);
-             $('.welcome-title').fadeIn(1000);
+             $('#welcome').hide();
+            $('.welcome').css({
+                'opacity':'1'
+            });
         }
     });
 
@@ -20,17 +23,19 @@ $(document).ready(function() {
     //START PP
       $(".slid").on({
         mouseenter: function() {
-            $('#pp').fadeIn(3000);
-           
-             $('.pp-title').fadeOut(1000);
+            $('#pp').show();
 
-             $('#pp').css({'font-size':'1.2em',
-                                'margin-top':'0.3em'
+            $('.slid').css({
+                'opacity':'0.8'
+            });
+             $('#pp').css({'font-size':'1em'
                                });
         },
         mouseleave: function() {
-             $('#pp').fadeOut(1000);
-             $('.pp-title').fadeIn(1000);
+            $('#pp').hide();
+            $('.slid').css({
+                'opacity':'1'
+            });
         }
     });
     
@@ -38,21 +43,25 @@ $(document).ready(function() {
 //START CQ
        $(".qe").on({
         mouseenter: function() {
-            $('#cq').fadeIn(3000);
-             $('#ce').fadeIn(3000);
-           
+            $('#cq').show();
+             $('#ce').show();
+            $('.qe').css({
+                'opacity':'0.8'
+            });
           //   $('.pp-title').fadeOut(1000);
 
-             $('#cq').css({'font-size':'1.2em',
-                                'margin-top':'0.3em'
+             $('#cq').css({'font-size':'1em'
+
                                });
-             $('#ce').css({'font-size':'1.2em',
-                                'margin-top':'0.3em'
+             $('#ce').css({'font-size':'1em'
                                });
         },
         mouseleave: function() {
-             $('#cq').fadeOut(1000);
-            $('#ce').fadeOut(1000);
+             $('#cq').hide();
+            $('#ce').hide();
+            $('.qe').css({
+                'opacity':'1'
+            });
             // $('.pp-title').fadeIn(1000);
         }
     });
