@@ -245,14 +245,17 @@ a.more.more-right:hover {
 /*------------------Services --------------------*/
 
 .service-page-title{
-    text-align: center;
     font-size: 4em;
     color: #E4500F;
+    text-align: center;
 
 }
 .service-page-subtitle p{
-text-align: center;
-    font-size: 1.8em;
+    color: #777;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    font-weight: 600;
+    margin: 1.4em;
 }
 .service-tomorrowland{
 background-image: url("../img/services/p1.jpg") ;
@@ -262,19 +265,26 @@ background-image: url("../img/services/p1.jpg") ;
     min-height: 396px;
 
 
+
+
+
 }
+
 .service-tomorrowland .service-caption{
     font-size: 3em;
     text-align: center;
     padding-top: 180px;
     color: white;
 }
+
 .service-gadsby{
     background-image: url("../img/services/p2.jpg")  ;
     background-repeat:no-repeat;
     background-size:100%;
+    width: 50%;
     background-position:center;
     min-height:356px ;
+    float: left;
 }
 .service-gadsby .service-caption{
     font-size: 2em;
@@ -286,8 +296,10 @@ background-image: url("../img/services/p1.jpg") ;
     background-image: url("../img/services/p3.jpg")  ;
     background-repeat:no-repeat;
     background-size:100%;
+    width: 50%;
     background-position:center;
     min-height:356px ;
+    float: right;
 }
 .service-caribians .service-caption{
     font-size: 2em;
@@ -301,6 +313,7 @@ background-image: url("../img/services/p1.jpg") ;
     background-size:100%;
     background-position:center;
     min-height: 395px;
+    clear: both;
 
 }
 .service-indian .service-caption{
@@ -313,8 +326,10 @@ background-image: url("../img/services/p1.jpg") ;
     background-image: url("../img/services/p5.jpg") ;
     background-repeat:no-repeat;
     background-size:100%;
+    width: 50%;
     background-position:center;
     min-height: 356px;
+    float: left;
 }
 .service-gadsby2 .service-caption{
     font-size: 2em;
@@ -326,8 +341,10 @@ background-image: url("../img/services/p1.jpg") ;
     background-image: url("../img/services/p6.jpg")  ;
     background-repeat:no-repeat;
     background-size:100%;
+    width: 50%;
     background-position:center;
     min-height:356px ;
+    float: right;
 }
 .service-caribians2 .service-caption{
     font-size: 2em;
@@ -1326,9 +1343,12 @@ h5.caption {
 .hiring-info h3 {
     display: inline-block;
     vertical-align: baseline;
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 200px;
     color: white;
+
+
+
 }
 @media (min-width: 767px) and (max-width: 1280px){
   .hiring{
